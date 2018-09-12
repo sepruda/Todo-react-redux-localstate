@@ -3,7 +3,6 @@ import NyOpgaveInput from "./NyOpgaveInput";
 import Opgave from "./Opgave";
 import { SortableContainer } from "react-sortable-hoc";
 
-//TODO Functional komponent
 const Todo = props => (
     <div className="mt-1 p-3  todo">
         <NyOpgaveInput tilføjNyOpgave={props.tilføjNyOpgave} />

@@ -1,16 +1,12 @@
 import React from "react";
-
-//Formular til at oprette nye elementer
 class NyOpgaveInput extends React.Component {
     constructor(props) {
         super(props);
 
-        //Opretter local state objekt, som indeholder tekstinput-teksten
         this.state = {
             input_text: ""
         };
 
-        //Bind vores egne funktioner til "this"
         this.handleInputChange = this.handleInputChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }

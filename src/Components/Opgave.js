@@ -1,7 +1,6 @@
 import React from "react";
 import { SortableElement } from "react-sortable-hoc";
 
-// TODO - Punkter
 const Opgave = SortableElement(props => {
     const text_style = {
         fontFamily: "sans-serif",

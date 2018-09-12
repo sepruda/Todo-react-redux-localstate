@@ -46,7 +46,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        tilføjNyOpgave: event => dispatch(addTodo(event)),
+        tilføjNyOpgave: text => {if (text) {dispatch(addTodo(text))}},
         fjernOpgave: id => dispatch(removeTodo(id)),
         faerdigOpgave: id => dispatch(doneTodo(id)),
         nySortering: ({oldIndex, newIndex}) => dispatch(sortTodo(oldIndex, newIndex)),

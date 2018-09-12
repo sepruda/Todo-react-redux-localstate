@@ -1,6 +1,5 @@
 import React from "react";
 
-//Header-komponent
 const Header = props => {
     return (
         <div className="p-3 mt-3 rounded">
