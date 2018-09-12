@@ -26,7 +26,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="container mt-3 border rounded bg-white p-3">
-                <Header antal={this.props.todo.length} />
+                <Header antal={this.props.todo.filter(t => !t.completed).length} />
                 <Todo
                     todo={this.props.todo}
                     tilføjNyOpgave={this.props.tilføjNyOpgave}

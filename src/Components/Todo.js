@@ -11,7 +11,7 @@ const Todo = props => (
             todo={props.todo}
             fjernOpgave={props.fjernOpgave}
             faerdigOpgave={props.faerdigOpgave}
-            pressDelay={200}
+            distance={10}
         />
     </div>
 );

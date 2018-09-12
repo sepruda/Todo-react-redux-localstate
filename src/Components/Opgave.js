@@ -4,8 +4,7 @@ import { SortableElement } from "react-sortable-hoc";
 const Opgave = SortableElement(props => {
     const text_style = {
         fontFamily: "sans-serif",
-        fontSize: "10px",
-        color: "gray"
+        color: "gray",
     };
 
     return (
