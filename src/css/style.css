@@ -8,6 +8,13 @@ body {
 li:hover {
     cursor: grab
 }
+li {
+	background: #ffff;
+}
+
+li:nth-child(2n) {
+	background: #f7f7f7;
+}
 
 .container {
     max-width: 600px;
