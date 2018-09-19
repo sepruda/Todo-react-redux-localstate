@@ -34,7 +34,7 @@ class NyOpgaveInput extends React.Component {
                             name="opgavetekst"
                             value={this.state.input_text}
                             type="text"
-                            placeholder="skriv ny opgave"
+                            placeholder="Add new todo"
                             onChange={this.handleInputChange}
                         />
                     </div>
@@ -43,7 +43,7 @@ class NyOpgaveInput extends React.Component {
                             className="btn btn-block btn-outline-primary"
                             type="submit"
                         >
-                            Tilføj{" "}
+                            Add{" "}
                         </button>
                     </div>
                 </div>

@@ -27,7 +27,7 @@ const Opgave = SortableElement(props => {
                         props.fjernOpgave(props.opgaveid);
                     }}
                 >
-                    slet
+                    Remove
                 </button>
             </div>
         </li>
